@@ -36,4 +36,4 @@ candidatos_encontrados = busca_candidatos(candidatos, minimo_entrevista, minimo_
 if len(candidatos_encontrados) > 0:
     print('Candidatos encontrados na busca:', candidatos_encontrados)
 else:
-    print('Nenhum candidato encontrado na busca.')
+    print('Não foi localizado nenhum candidato na busca.')
