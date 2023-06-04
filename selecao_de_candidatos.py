@@ -17,8 +17,9 @@ candidatos = [
     {'Candidato': 'José', 'entrevista': 2, 'teste teórico': 2, 'teste prático': 2, 'soft skills': 1},
     {'Candidato': 'Joaquim', 'entrevista': 10, 'teste teórico': 10, 'teste prático': 8, 'soft skills': 9}
 ]
-
+# loop
 while True:
+# Tratamento de erros com o try e except
     try:
         # Entrada do usuário - notas mínimas
         minimo_entrevista = int(input("Digite a nota mínima para a entrevista: "))
@@ -38,6 +39,6 @@ while True:
         opcao = input("Deseja realizar outra consulta? (s/n): ")
         if opcao.lower() != 's':
             break
-    
+    # Tratamento de erros com o try e except
     except ValueError:
         print("Erro: Valor inválido. Por favor, digite um número válido para as notas mínimas.\n")
